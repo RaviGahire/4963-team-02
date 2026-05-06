@@ -346,7 +346,7 @@ ul, li {
     margin-top: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 1.0625rem;
-    color: #CACACA;
+    color: var(--color-light-gray);
     font-weight: 350;
     opacity: 0.86;
 }
@@ -391,7 +391,7 @@ ul, li {
     font-family: 'Inter', sans-serif;
     font-size: 0.9375rem;
     font-weight: 350;
-    color: #CACACA;
+    color: var(--color-light-gray);
     opacity: 0.86;
 }
 
@@ -434,7 +434,7 @@ ul, li {
     font-family: 'Inter', sans-serif;
     font-size: 0.9375rem;
     font-weight: 350;
-    color: #CACACA;
+    color: var(--color-light-gray);
     opacity: 0.86;
 }
 
@@ -443,7 +443,7 @@ ul, li {
     font-family: 'Inter', sans-serif;
     font-size: 0.9375rem;
     font-weight: 350;
-    color: #CACACA;
+    color: var(--color-light-gray);
     opacity: 0.86;
 }
 
