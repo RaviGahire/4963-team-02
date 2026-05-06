@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Russo+One&display=swap');
 
 header {
-    background-color: #151515; 
-    color: #ffffff;
+    background-color: var(--bg-dark); 
+    color: var(--text-light);
     font-family: 'Inter', sans-serif;
 }
 body.body--menu-open,
@@ -20,7 +20,7 @@ html.menu-open {
 }
 
 .header__social-link {
-    color: #ffffff;
+    color: var(--text-light);
 }
 .header__social-link svg {
     width: 45px;
@@ -29,8 +29,8 @@ html.menu-open {
 }
 .header__social-link:hover,
 .header__social-link:hover svg {
-    color: #ffffff;
-    fill: #ffffff;
+    color: var(--text-light);
+    fill: var(--text-light);
 }
 
 .header__logo {
@@ -144,7 +144,7 @@ ul, li {
         display: block;
         width: 18px;
         height: 2px;
-        background-color: #ffffff;
+        background-color: var(--text-light);
         transition: transform 0.2s ease, opacity 0.2s ease;
     }
 
@@ -197,7 +197,7 @@ ul, li {
         font-family: 'Inter', sans-serif;
         font-size: 17px;
         font-weight: 400;
-        color: #ffffff;
+        color: var(--text-light);
         display: inline-block;
     }
 
@@ -253,7 +253,7 @@ ul, li {
 .single-project-title {
     font-family: 'Russo One', sans-serif;
     font-size: 5rem;
-    color: #ffffff;
+    color: var(--text-light);
     margin-top: 100px;
     margin-bottom: 30px;
     padding: 0;
@@ -278,7 +278,7 @@ ul, li {
 .single-project-hero .breadcrumb .separator,
 .single-project-hero .breadcrumb .current {
     font-size: 11px;
-    color: #ffffff;
+    color: var(--text-light);
     line-height: 1;
 }
 
@@ -289,7 +289,7 @@ ul, li {
 
 .single-project-hero .breadcrumb .current {
     font-size: 11px;
-    color: #ffffff;
+    color: var(--text-light);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -339,7 +339,7 @@ ul, li {
     font-family: 'Russo One', sans-serif;
     font-size: 2.625rem;
     font-weight: 100;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .project-main-info h4 {
@@ -383,7 +383,7 @@ ul, li {
     font-family: 'Inter', sans-serif;
     font-size: 1.0625rem;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .project-additional-info h4 {
@@ -417,7 +417,7 @@ ul, li {
     font-family: 'Russo One', sans-serif;
     font-size: 2.625rem;
     font-weight: 100;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .project-key-features h3,
@@ -426,7 +426,7 @@ ul, li {
     font-family: 'Inter', sans-serif;
     font-size: 1.0625rem;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .project-feature h4 {
@@ -590,7 +590,7 @@ ul, li {
     font-size: 42px;
     font-weight: 400;
     text-transform: lowercase;
-    color: #ffffff;
+    color: var(--text-light);
     max-width: 790px;
     line-height: 1.05;
 }
@@ -611,7 +611,7 @@ ul, li {
     font-family: 'Russo One', sans-serif;
     font-size: 26px;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--text-light);
     text-transform: lowercase;
 }
 
@@ -663,7 +663,7 @@ ul, li {
     font-weight: 400;
     line-height: 0.95;
     letter-spacing: -0.01em;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .project-results__value span {
@@ -743,7 +743,7 @@ ul, li {
     font-weight: 400;
     line-height: 1.08;
     text-transform: lowercase;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .all-projects-button {
@@ -758,7 +758,7 @@ ul, li {
     font-size: 15.4px;
     font-weight: 600;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .all-projects-link::after {
@@ -834,7 +834,7 @@ ul, li {
     font-size: 17px;
     font-weight: 700;
     line-height: 1.25;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .recent-projects-card__category {
@@ -865,7 +865,7 @@ ul, li {
     height: 48px;
     top: 132px;
     opacity: 1;
-    color: #ffffff;
+    color: var(--text-light);
     border: 0;
     background: transparent;
     padding: 0;
@@ -1053,7 +1053,7 @@ ul, li {
     font-weight: 400;
     line-height: 1.1;
     text-transform: lowercase;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .contact-info-block .contact-info {
@@ -1062,7 +1062,7 @@ ul, li {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.35;
-    color: #ffffff;
+    color: var(--text-light);
 }
 
 .contact-info__link {
@@ -1096,7 +1096,7 @@ ul, li {
 }
 
 .projects-footer {
-    color: #ffffff;
+    color: var(--text-light);
     padding: 3.5rem 1rem 2.2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     text-align: center;
@@ -1126,7 +1126,7 @@ ul, li {
 }
 
 .projects-footer__link {
-    color: #ffffff;
+    color: var(--text-light);
     text-decoration: underline;
     text-underline-offset: 2px;
     font-size: 0.74rem;
@@ -1149,7 +1149,7 @@ ul, li {
 .projects-footer__nav-link {
     display: block;
     margin: 0.95rem 0;
-    color: #ffffff;
+    color: var(--text-light);
     text-decoration: none;
     font-size: 17px;
     line-height: 1.2;
@@ -1185,7 +1185,7 @@ ul, li {
     border-radius: 34px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.05);
-    color: #ffffff;
+    color: var(--text-light);
     min-width: 0;
 }
 
@@ -1194,7 +1194,7 @@ ul, li {
     border: none;
     border-radius: 34px;
     background: linear-gradient(90deg, var(--accent), var(--accent-hover));
-    color: #ffffff;
+    color: var(--text-light);
     cursor: pointer;
 }
 
